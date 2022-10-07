@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Word Guessing Game</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body class="body">
+    <div class="nav-bar">
+    
+        <a id="numbersgame" href="numbergame.html">Numbers Game</a>
+        <header> <b>WELCOME TO THE GUESSING GAMES!</b></header>
+        <a id="wordsgame" href="index.html">Words Game</a>
+        <a id="moregames" href="https://yaksgames.com/tags/guessing-games">More Games</a>
+    </div>
+    <br>
+    <br>
+    <br>
+    <form class="formBox">
+        <div class="wrapper">
+          <h1>Guess the Word</h1>
+          <div class="content">
+            <input type="text" class="typing-input">
+            <div class="inputs"></div>
+            <div class="details">
+              <p class="hint">Hint: <span></span></p>
+              <p class="guess-left">Remaining guesses: <span></span></p>
+              <p class="wrong-letter">Wrong letters: <span></span></p>
+            </div>
+            <button class="reset-btn">Reset Game</button>
+          </div>
+        </div>
+        
+    </form>
+
+    <script src="./words.js"></script>
+    <script src="./index.js"></script>
+
+  </body>
+</html>
